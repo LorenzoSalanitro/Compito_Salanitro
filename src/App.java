@@ -2,7 +2,7 @@ public class App {
     public static void main(String[] args) throws Exception 
     {
         Semaforo semaforo = new Semaforo(2);
-        Spogliatoglio spogliatoglio = new Spogliatoglio();
+        Spogliatoio spogliatoglio = new Spogliatoio();
         Classifica b = new Classifica();
 
         Persona p1 = new Persona("marco", spogliatoglio, semaforo);

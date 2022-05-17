@@ -1,10 +1,17 @@
-public class Spogliatoglio 
+public class Spogliatoio 
 {
-    public Spogliatoglio()
+    /**
+     * costructor of the class
+     */
+    public Spogliatoio()
     {
 
     }
 
+    /**
+     * methods to use the change room
+     * @param nome
+     */
     public void usa_Spo(String nome)
     {
         try
