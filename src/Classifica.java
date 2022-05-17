@@ -15,17 +15,6 @@ public class Classifica
     public void aggiusta()
     {
         Collections.sort(classifica);
-
-        /*for(int i = 0; i< classifica.size(); i++)
-        {
-            for(int j = 1; j<classifica.size()-1; j++)
-            {
-                if(classifica.get(i).tempo_fin < classifica.get(j).tempo_fin)
-                {
-
-                }
-            }
-        }*/
     }
     
 }
